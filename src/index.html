@@ -1,0 +1,48 @@
+radio-bottom<h1 id="title">Formulary</h1>
+<p id="description">That is a trainig exercise</p>
+<form id="survey-form">
+  <label id="name-label">
+    <h4>Name</h4>
+    <input id="name" placeholder="Name" type="name" required for="name">
+    </input>
+  </label>
+  <label id="email-label">
+    <h4>Email</h4>
+    <input id="email" type="email" placeholder="Email" required for="email">
+    </input>
+  </label>
+  <label id="number-label">
+    <h4>Number</h4>
+    <input id="number" type="number" min="0" max="7" placeholder="#" required for="email">
+    </input>
+  </label>
+<label for="gender" placeholder="Estudios"><h4>Estudios:</h4></label>
+<select id="dropdown" name="gender" id="gender">
+  <option value="hombre">Primaria</option>
+  <option value="mujer">Secundaría</option>
+  <option value="no binario">Universidad</option>
+</select>
+<h4>Gender</h4>
+<div class="radio-bottom">
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="masculino">Hombre</label><br>
+    <input type="radio" id="" name="fav_language" value="JavaScript">
+    <label for="femenino">Femenino</label>
+</div>
+<h4>Favorite colors</h4>
+<div>
+  <input type="checkbox" id="colorA" name="yellow" value="Bike">
+  <label for="vehicle1">Yellow</label><br>
+  <input type="checkbox" id="colorB" name="blue" value="Car">
+  <label for="vehicle2">Blue</label><br>
+  <input type="checkbox" id="colorC" name="red" value="Boat">
+  <label for="vehicle3">Red</label><br>
+</div>
+<div>
+  <h4 for="comments">Comentarios</h4>
+  <textarea id="w3review" name="w3review" rows="5" cols="10">
+  At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+  </textarea>
+</div>
+<button type="submit" id="submit">Finalizar</button>
+</form>
